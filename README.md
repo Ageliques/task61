@@ -5,5 +5,5 @@ contact_list.c - файл, в котором реализованы функци
 gcc -c contact_list.c -o contact_list.o
 ar rcs libcontact_list.a contact_list.o
 main.c - файл, который использует библиотеку.
-gcc main.c -o main -L. -lcontact_list
-./main
+gcc task62.c -o task62 -L. -lcontact_list
+./task62
